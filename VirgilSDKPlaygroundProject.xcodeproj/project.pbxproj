@@ -1,0 +1,131 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4287D01F203478350093CA58 /* AggregateFrameworks */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4287D022203478350093CA58 /* Build configuration list for PBXAggregateTarget "AggregateFrameworks" */;
+			buildPhases = (
+				4287D023203478400093CA58 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = AggregateFrameworks;
+			productName = AggregateFrameworks;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXGroup section */
+		4287D0182034780D0093CA58 = {
+			isa = PBXGroup;
+			children = (
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		4287D0192034780D0093CA58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					4287D01F203478350093CA58 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4287D01C2034780D0093CA58 /* Build configuration list for PBXProject "VirgilSDKPlaygroundProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4287D0182034780D0093CA58;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4287D01F203478350093CA58 /* AggregateFrameworks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4287D023203478400093CA58 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -rv \"${SRCROOT}/Carthage/Build/iOS/\" \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4287D01D2034780D0093CA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4287D01E2034780D0093CA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		4287D020203478350093CA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A59V7K656Y;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4287D021203478350093CA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A59V7K656Y;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4287D01C2034780D0093CA58 /* Build configuration list for PBXProject "VirgilSDKPlaygroundProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4287D01D2034780D0093CA58 /* Debug */,
+				4287D01E2034780D0093CA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4287D022203478350093CA58 /* Build configuration list for PBXAggregateTarget "AggregateFrameworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4287D020203478350093CA58 /* Debug */,
+				4287D021203478350093CA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4287D0192034780D0093CA58 /* Project object */;
+}

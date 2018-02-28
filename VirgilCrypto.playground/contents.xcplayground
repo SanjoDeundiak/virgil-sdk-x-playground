@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='1. Generate'/>
+        <page name='2. Generate RSA'/>
+        <page name='3. Export Private Key'/>
+        <page name='4. Export Public Key'/>
+        <page name='5. Import Private Key'/>
+        <page name='6. Import Public Key'/>
+        <page name='7. Generate Verify Signature'/>
+        <page name='8. Encrypt Decrypt Data'/>
+        <page name='9. SignThenEncrypt DecryptThenVerify Data'/>
+        <page name='10. Multiple Encryption'/>
+    </pages>
+</playground>

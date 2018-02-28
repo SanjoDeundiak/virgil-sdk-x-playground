@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Create Card'/>
+        <page name='Get Card'/>
+        <page name='Search Cards'/>
+        <page name='Sign Then Encrypt'/>
+        <page name='Decrypt Then Verify'/>
+    </pages>
+</playground>

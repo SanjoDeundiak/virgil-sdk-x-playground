@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='1. Setup AccessTokenProvider'/>
+        <page name='1. Generate JWT'/>
+        <page name='2. Generate Private Key'/>
+        <page name='2. Export Card'/>
+        <page name='2. Sign Card'/>
+        <page name='3. Setup CardManager'/>
+        <page name='4. Verify Users Signatures'/>
+        <page name='4. KeyStorage'/>
+    </pages>
+</playground>
